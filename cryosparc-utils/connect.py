@@ -24,5 +24,3 @@ def connect():
 
 cs = connect()
 assert cs.test_connection()
-
-# %% 
