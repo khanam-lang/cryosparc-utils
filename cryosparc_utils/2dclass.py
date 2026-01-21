@@ -27,6 +27,10 @@ def export_high_res_2d(
 ):
     # location and loading
     # how can i find and alter dpi so that i have some extra space?
+    # all copypasted from tutorial
+    # TODO: 
+    #   remove hard coded parameters via typer + CLI wrapper script
+    #   figure out dynamic dpi sizes wrt extraction box pix size
     ws = cs.find_workspace("W1")
     project = ws.find_project("P4")
     job = project.find_job("J11")
